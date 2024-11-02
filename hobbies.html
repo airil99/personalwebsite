@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3f6f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .hobby-section {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .hobby-section:nth-child(even) {
+            flex-direction: row-reverse;
+            background-color: #f7f9fc;
+        }
+
+        .hobby-section img {
+            width: 50%;
+            height: auto;
+            border-radius: 10px;
+            margin: 0 20px;
+        }
+
+        .hobby-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .hobby-content h2 {
+            font-size: 1.8rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .hobby-content p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- First Hobby Section: Futsal -->
+        <div class="hobby-section">
+            <img src="pictures/futsal.jpeg" alt="Playing Futsal">
+            <div class="hobby-content">
+                <h2>Playing Futsal</h2>
+                <p>I enjoy staying active by playing futsal with friends. It's a great way to stay fit, improve my agility, and maintain my stamina.
+                     Futsal challenges me both physically and mentally, as the fast-paced nature of the game requires quick thinking and sharp reflexes. 
+                     Playing in a team also strengthens my sense of camaraderie and teamwork, as each match is an opportunity to work closely with friends, strategize, and execute precise plays..</p>
+            </div>
+        </div>
+
+        <!-- Second Hobby Section: PUBG -->
+        <div class="hobby-section">
+            <img src="pictures/pubg.jpg" alt="Playing PUBG">
+            <div class="hobby-content">
+                <h2>Playing PUBG</h2>
+                <p>In my downtime, I love immersing myself in the world of PUBG. This game offers an exhilarating experience that combines strategy, skill, and teamwork.
+                     The suspense of landing on unknown terrain and scavenging for supplies while avoiding enemy fire keeps me on the edge of my seat. Working with my team 
+                     to secure a strategic advantage requires coordination, planning, and quick thinking. Each round presents a new adventure and an opportunity to refine my skills, 
+                     adapt to unexpected situations, and develop tactical strategies. .</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
